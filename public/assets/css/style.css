@@ -1,0 +1,46 @@
+/* public/assets/css/style.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1351aa; /* <-- WARNA TEKS BARU LU */
+    background-color: #e3e2de; /* <-- BACKGROUND BARU LU */
+}
+
+/* Biar konten nggak nempel ke header/footer */
+.main-content {
+    min-height: 80vh;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+/* Tombol Bulat Keren */
+.btn-circle {
+    width: 150px;
+    height: 150px;
+    padding: 10px 16px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: white; /* Bikin teksnya putih */
+    text-align: center; /* Jaga-jaga */
+}
+
+.btn-circle:hover {
+    transform: scale(1.05);
+    color: white; /* Tetep putih pas di-hover */
+}
+
+.btn-resume {
+    background-color: #f9c74f; /* Kuning */
+}
+.btn-projects {
+    background-color: #f94144; /* Merah */
+}
+.btn-contact {
+    background-color: #90be6d; /* Hijau */
+}
