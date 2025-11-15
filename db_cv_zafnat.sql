@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 15, 2025 at 08:17 AM
+-- Generation Time: Nov 15, 2025 at 08:46 AM
 -- Server version: 8.4.3
 -- PHP Version: 8.3.26
 
@@ -139,7 +139,7 @@ INSERT INTO `portofolio` (`id_porto`, `nama_proyek`, `jenis`, `deskripsi`, `link
 (1, 'RX-93 V Gundam', 'Fotografi', '', NULL, 'nu.jpg'),
 (2, 'Lex Luthor', 'Desain Grafis', 'Lex Luthor Envy', NULL, 'envy.png'),
 (3, 'Springtrap', 'Sketsa', 'FNAF - Springtrap', NULL, 'fnaf.jpg'),
-(4, 'Konten YouTube', 'Video', 'Kumpulan video konten game dan review yang di-edit menggunakan DaVinci Resolve/CapCut.', NULL, NULL),
+(4, 'Konten YouTube', 'Video', '', 'https://www.youtube.com/@ZafnatZ01', 'z01.jpg'),
 (5, 'Batman', 'Desain Grafis', 'The Batman 2022 Poster', NULL, 'Batman.png'),
 (6, 'Rorschach', 'Desain Grafis', 'Rorschach Truth', NULL, 'truth.png'),
 (7, 'Toyota GR86', 'Desain Grafis', 'MF Ghost', NULL, '86.png'),

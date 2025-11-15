@@ -42,14 +42,14 @@ $this->section('content');
                 
                 <h3 class="fw-bold mt-5">Konten YouTube</h3>
                 <div class="d-flex align-items-center gap-3 p-3 border rounded shadow-sm">
-                    <img src="<?= base_url('assets/img/portofolio/youtube_profile.jpg') ?>" 
+                    <img src="<?= base_url('assets/img/portofolio/z01.jpg') ?>" 
                          class="rounded-circle" 
                          style="width: 100px; height: 100px; object-fit: cover;"
                          alt="YouTube Profile">
                     <div>
                         <h5 class="fw-bold"><?= esc($portos[0]['nama_proyek']) ?></h5>
                         <a href="<?= esc($portos[0]['link_demo']) ?>" class="btn btn-danger btn-lg" target="_blank">
-                            Lihat Karya (Channel)
+                            Lihat Channel
                         </a>
                     </div>
                 </div>
