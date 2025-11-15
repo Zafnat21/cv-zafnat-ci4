@@ -12,10 +12,12 @@
     
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 </head>
-<body style="background-color: #e3e2de; color: #1351aa;"> <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+<body style="background-color: #e3e2de; color: #1351aa;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" style="background-color: #495057;">
         <div class="container">
             <a class="navbar-brand fw-bold" href="<?= base_url('/') ?>">
-                <span style="color: #f9c74f;">●</span> <?= esc($biodata['nama_lengkap']) ?>
+                <span style="color: #1351aa;">●</span> <?= esc($biodata['nama_lengkap']) ?>
             </a>
             
             <div class="collapse navbar-collapse" id="navbarNav">

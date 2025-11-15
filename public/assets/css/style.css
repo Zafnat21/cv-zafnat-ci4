@@ -36,11 +36,12 @@ body {
 }
 
 .btn-resume {
-    background-color: #f9c74f; /* Kuning */
+    background-color: #1351aa;  
 }
+
 .btn-projects {
-    background-color: #f94144; /* Merah */
+    background-color: #495057;
 }
 .btn-contact {
-    background-color: #90be6d; /* Hijau */
+    background-color: #adb5bd;
 }
